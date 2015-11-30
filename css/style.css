@@ -1,66 +1,50 @@
 
 
 html { 
-  background-color: #eeeeee;
- height: 100%;
- margin: 0;
-
- padding: 0;
-    color: black;
     
-		font-size: 12pt;
-		font-weight: 200;
+background-color: #fff;
+color: #000;
     
-
-}
-
-.navigation-links{
-    
-    background: transparent;
-}
-.brand-logo img{
-    padding-left: auto;
-    padding-right: auto;
-    height: 60px;
-    width: 200px;
-    text-align: center;
    
 }
+
+
+.nav-wrapper .brand-logo{
+   height: 60px;
+    width: 100px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 6px;
+   
+    
+}
+
 nav li a{
-    color: black;
+    color: #fff;
 }
 nav li a:hover{
 
 }
 .nav-wrapper{
-background-color: #fedb0a;
+background-color: #1A032E;
 }
 
-.about p{
-    font-weight: 80;
-    font-size: 12px;
-    text-align:  justify;
+#page-title{
     
-
 }
 
-
-
-
-
-
-p.about{
-    text-align: justify;
-    width: 100px;
+#page-title h2{
+    text-align: center;
+    text-transform: uppercase;
 }
 	#banner
 	{
 		position: relative;
 		padding: 12em 0em;
-		background: url(../images/header-b.jpg) no-repeat center;
+		background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/header.jpg) no-repeat center;
 		background-size: cover;
 		color: #fff;
-        text-align: right;
+        text-align: left;
 	}
 
 #banner .title h2{
@@ -76,6 +60,7 @@ p.about{
     font-size: 2em;
     color: #ffffff;
     font-size: 30pt;
+    text-transform: uppercase;
 
 }
 
@@ -92,9 +77,10 @@ p.about{
 	{
 		position: relative;
 		padding: 12em 0em;
-		background: url(../images/whloader.jpg) no-repeat center;
+		background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/whloader.jpg) no-repeat center;
 		background-size: cover;
 		color: #fff;
+       
 	}
 
 	#banner-grader
@@ -127,15 +113,7 @@ p.about{
 
 
 
-.product-description{
-    	
-		text-align: center;
 
-}
-
-.product-description p{
-    text-align: justify;
-}
 
 #copyright
 	{
@@ -170,7 +148,8 @@ p.about{
 		text-align: center;
 	}
 #page p{
-    text-align: center;
+    text-align: justify;
+    font-weight: 200;
 }
 
 	.title .byline
@@ -238,169 +217,6 @@ ul.specifications{
     margin-bottom: 30px;
 }
 
-/* this is the styling for the footer */
-
-.footer-distributed{
-	background-color: #fedb0a;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	box-sizing: border-box;
-	width: 100%;
-	text-align: left;
-	
-
-	padding: 55px 50px;
-	margin-top: 80px;
-}
-
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
-	display: inline-block;
-	vertical-align: top;
-}
-
-/* Footer left */
-
-.footer-distributed .footer-right{
-	width: 40%;
-}
-
-/* The company logo */
-
-
-.footer-distributed .footer-links{
-	color:  #000;
-	margin: 20px 0 12px;
-	padding: 0;
-}
-
-.footer-distributed .footer-links a{
-	display:inline-block;
-	line-height: 1.8;
-	text-decoration: none;
-	color:  inherit;
-}
-
-.footer-distributed .footer-company-name{
-	color:  #8f9296;
-	font-size: 14px;
-	font-weight: normal;
-	margin: 0;
-}
-
-/* Footer Center */
-
-.footer-distributed .footer-center{
-	width: 35%;
-}
-
-.footer-distributed .footer-center i{
-	background-color:  #33383b;
-	color: #ffffff;
-	font-size: 25px;
-	width: 38px;
-	height: 38px;
-	border-radius: 55%;
-	text-align: center;
-	line-height: 42px;
-	margin: 10px 15px;
-	vertical-align: middle;
-}
-
-.footer-distributed .footer-center i.fa-envelope{
-	font-size: 17px;
-	line-height: 38px;
-}
-
-.footer-distributed .footer-center p{
-	display: inline-block;
-	line-height: 20px;
-	color:  #000;
-	font-size: 13px;
-	font-weight: normal;
-	margin: 0;
-}
-
-.footer-distributed .footer-center p span{
-    display: block;
-	line-height: 20px;
-	color:  #fff;
-	font-size: 16px;
-	font-weight: 600;
-	margin: 0;
-}
-
-.footer-distributed .footer-center p a{
-	color:  #5383d3;
-	text-decoration: none;;
-}
-
-
-/* Footer Right */
-
-.footer-distributed .footer-left{
-	width: 20%;
-}
-
-.footer-distributed .footer-company-about{
-	line-height: 20px;
-	color:  #000;
-	font-size: 13px;
-	font-weight: normal;
-	margin: 0;
-    text-align: justify;
-}
-
-.footer-distributed .footer-company-about span{
-	display: block;
-	color:  #ffffff;
-	font-size: 14px;
-	font-weight: bold;
-	margin-bottom: 20px;
-}
-
-.footer-distributed .footer-icons{
-	margin-top: 25px;
-}
-
-.footer-distributed .footer-icons a{
-	display: inline-block;
-	width: 35px;
-	height: 35px;
-	cursor: pointer;
-	background-color:  #33383b;
-	border-radius: 2px;
-
-	font-size: 20px;
-	color: #ffffff;
-	text-align: center;
-	line-height: 35px;
-
-	margin-right: 3px;
-	margin-bottom: 5px;
-}
-
-
-
-@media (max-width: 880px) {
-
-	
-
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-center,
-	.footer-distributed .footer-right{
-		display: block;
-		width: 100%;
-		margin-bottom: 40px;
-		text-align: center;
-	}
-
-	.footer-distributed .footer-center i{
-		margin-left: 0;
-	}
-
-}
-
 
 .dropdown-content{
     background-color: #fedb0a;
@@ -412,12 +228,30 @@ ul.specifications{
 
 
 .dropdown-content li.divider{min-height:0;height:1px}
-.dropdown-content li>a,.dropdown-content li>span{color:#000;}
+.dropdown-content li>a,.dropdown-content li>span{color:#000; font-weight: 200;}
 
 .side-nav{
-    background-color: #fedb0a;  
+    background-color: #1A032E;  
 }
 
 .side-nav li:hover{
-    background-color: #fdd835;
+    background-color: #22032e ;
+}
+
+.side-nav .dropdown-content{
+    background-color:  #eee;
+}
+
+#footer-content{
+   
+    padding: 5em 0em;
+    background-color: #fedb0a;
+    height: 20%;
+}
+
+#footer-content p{
+    text-align: center;
+    font-size: 1em;
+    color: #888080;
+        
 }
