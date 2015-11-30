@@ -1,80 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
-@font-face {
-    font-family: 'si';
-    src: url('../font/socicon.eot');
-    src: url('../font/socicon.eot?#iefix') format('embedded-opentype'),
-         url('../font/socicon.woff') format('woff'),
-         url('../font/socicon.ttf') format('truetype'),
-         url('../font/socicon.svg#icomoonregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
- 
-}
- 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    @font-face {
-        font-family:si;
-        src: url(font/socicon/socicon.svg) format(svg);
-    }
-}
 
-.soc {
-    overflow:hidden;
-    margin:0; padding:0;
-    list-style:none;
-}
-
-.soc li {
-    display:inline-block;
-    *display:inline;
-    zoom:1;
-}
-
-.soc li a {
-    font-family:si!important;
-    font-style:normal;
-    font-weight:400;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    -ms-box-sizing:border-box;
-    -o-box-sizing:border-box;
-    box-sizing:border-box;
-    overflow:hidden;
-    text-decoration:none;
-    text-align:center;
-    display:block;
-    position: relative;
-    z-index: 1;
-    width: 49px;
-    height: 49px;
-    line-height: 49px;
-    font-size: 26px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    border-radius: 100px;
-    margin-right: 12px;
-    color: #000000;
-    background-color: #fedb0a;
-}
-
-.soc-icon-last{
-    margin:0 !important;
-}
-
-.soc-twitter:before {
-    content:'a';
-}
-.soc-instagram:before {
-    content:'x';
-}
-.soc-facebook:before {
-    content:'b';
-}
-.soc-google:before {
-    content:'c';
-}
 
 html { 
   background-color: #eeeeee;
@@ -83,7 +7,7 @@ html {
 
  padding: 0;
     color: black;
-    font-family: 'Didact Gothic', sans-serif;
+    
 		font-size: 12pt;
 		font-weight: 200;
     
@@ -266,9 +190,6 @@ ul.specifications{
 }
 
 
-a.footer-copyright{
-color: black; 
-}
 
 
 
@@ -325,7 +246,7 @@ color: black;
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 16px sans-serif;
+	
 
 	padding: 55px 50px;
 	margin-top: 80px;
@@ -459,13 +380,11 @@ color: black;
 	margin-bottom: 5px;
 }
 
-/* If you don't want the footer to be responsive, remove these media queries */
+
 
 @media (max-width: 880px) {
 
-	.footer-distributed{
-		font: bold 14px sans-serif;
-	}
+	
 
 	.footer-distributed .footer-left,
 	.footer-distributed .footer-center,
@@ -480,4 +399,25 @@ color: black;
 		margin-left: 0;
 	}
 
+}
+
+
+.dropdown-content{
+    background-color: #fedb0a;
+}
+
+
+.dropdown-content li:hover,.dropdown-content li.active,.dropdown-content li.selected{background-color:#fdd835;
+}
+
+
+.dropdown-content li.divider{min-height:0;height:1px}
+.dropdown-content li>a,.dropdown-content li>span{color:#000;}
+
+.side-nav{
+    background-color: #fedb0a;  
+}
+
+.side-nav li:hover{
+    background-color: #fdd835;
 }
