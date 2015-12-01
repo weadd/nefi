@@ -8,6 +8,9 @@ color: #000;
    
 }
 
+h1,h2,h3,h4,h5,h6{
+    text-transform: uppercase;
+}
 
 .nav-wrapper .brand-logo{
    height: 60px;
@@ -266,7 +269,20 @@ ul.specifications{
 .contact{
     padding-top: 3em;
 }
-.contact img{
-    padding-top: 5em;
-    padding-right: 80px;
+.image-map{
+ left: 20px;
 }
+
+.map-title{
+    font-size: 20pt;
+    font-weight: 300;
+}
+.form-title{
+    font-weight: 300;
+}
+
+.btn{
+    background-color: #1A032E;
+    color: #fedb0a;
+}
+
