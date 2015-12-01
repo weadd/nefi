@@ -47,23 +47,30 @@ background-color: #1A032E;
         text-align: left;
 	}
 
-#banner .title h2{
-    font-size: 4em;
-    color: #fedb0a;
-    font-weight: 900;
-   text-transform: uppercase;
+#banner .title{
     
-  
 }
 
-#banner .title .intro-title{
+.title-header{
+    line-height: 30px;
+    
+}
+
+.title-header .small-heading{
     font-size: 2em;
     color: #ffffff;
     font-size: 30pt;
     text-transform: uppercase;
-
+    margin-bottom: 0.5em;
+    font-weight: 600;
 }
 
+.title-header .big-heading{
+    font-size: 40pt;
+    color: #fedb0a;
+    font-weight: 900;
+   text-transform: uppercase;
+}
 
 #banner-lift{
     position: relative;
